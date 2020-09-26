@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Diksha Academy</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="results_style.css">
+	<link rel="stylesheet" type="text/css" href="btnstyle.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+          $(window).scroll(function() {
+            if ($(document).scrollTop() > 50) {
+              $(".navbar").addClass("back");
+            } else {
+              $(".navbar").removeClass("back");
+            }
+          });
+        });
+    </script> 
+</head>
+<body>
+<div class="navbar">
+    <div class="logo"><a href="#">DIKSHA</a></div>
+    <a class="openBtn" onclick="toggleMenu()"></a>
+    <ul>
+        <li class="btn">
+            <a href="index.html">
+                <span class="left"></span>
+                <span class="top"></span>   
+                <span class="right"></span>
+                <span class="bottom"></span>
+                HOME
+            </a>
+        </li>
+        <li class="btn">
+            <a href="#">
+                <span class="left"></span>
+                <span class="top"></span>   
+                <span class="right"></span>
+                <span class="bottom"></span>
+                ADMISSIONS
+            </a>
+        </li>
+        <li class="btn">
+            <a href="results.html">
+                <span class="left"></span>
+                <span class="top"></span>   
+                <span class="right"></span>
+                <span class="bottom"></span>
+                RESULTS
+            </a>
+        </li>
+        <li class="btn">
+            <a href="#">
+                <span class="left"></span>
+                <span class="top"></span>   
+                <span class="right"></span>
+                <span class="bottom"></span>
+                GALLERY
+            </a>
+        </li>
+        <li class="btn">
+            <a href="#">
+                <span class="left"></span>
+                <span class="top"></span>   
+                <span class="right"></span>
+                <span class="bottom"></span>
+                ABOUT US
+            </a>
+        </li>
+    </ul>
+</div>   
+<div class="results">
+    <h1>Our Results</h1>
+    <div class="list">
+        <ul>
+            <li class="btn">
+                <a href="#" class="active">
+                    <span class="left"></span>
+                    <span class="top"></span>   
+                    <span class="right"></span>
+                    <span class="bottom"></span>
+                    2019
+                </a>
+            </li>
+            <li class="btn">
+                <a href="#">
+                    <span class="left"></span>
+                    <span class="top"></span>   
+                    <span class="right"></span>
+                    <span class="bottom"></span>
+                    2018
+                </a>
+            </li>
+            <li class="btn">
+                <a href="#">
+                    <span class="left"></span>
+                    <span class="top"></span>   
+                    <span class="right"></span>
+                    <span class="bottom"></span>
+                    2017
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="tContainer">
+    <div class="testimonials">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide 2019">
+                    <div class="card">
+                        <div class="layer"></div>
+                        <div class="content">
+                            <p>JEE ADV - AIR 2644
+                            <br>JEE ADV - OBC 365
+                            <br>JEE MAIN - AIR 3216
+                            <br>JEE MAIN - OBC 515
+                            <br>MHT-CET - 99.94%
+                            <br>HSC BOARD - 99.83%</p>
+                            <div class="imgBox">
+                                <img src="images/profile1.jpg">
+                            </div>
+                            <div class="details">
+                                <h2>SHASHANK ADKESHWAR<br><span>IIT BHU</span></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide 2018">
+                    <div class="card">
+                        <div class="layer"></div>
+                        <div class="content">
+                            <p>JEE ADV - AIR 3589
+                            <br>JEE ADV - SC 42
+                            <br>JEE MAIN - AIR 4587
+                            <br>JEE MAIN - SC 63
+                            <br>MHT-CET - 99.83%
+                            <br>HSC BOARD - 84.77%</p>
+                            <div class="imgBox">
+                                <img src="images/profile2.jpg">
+                            </div>
+                            <div class="details">
+                                <h2>ROHIT BHAGAT<br><span>IIT MADRAS</span></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide 2017">
+                    <div class="card">
+                        <div class="layer"></div>
+                        <div class="content">
+                            <p>JEE ADV - AIR 5420
+                            <br>JEE MAIN - AIR 4669
+                            <br>MHT-CET - 98.99%
+                            <br>HSC BOARD - 80%<br><br><br></p>
+                            <div class="imgBox">
+                                <img src="images/profile3.jpeg">
+                            </div>
+                            <div class="details">
+                                <h2>KEDAR PATHADE<br><span>IIT BHUBANESHWAR</span></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide 2016">
+                    <div class="card">
+                        <div class="layer"></div>
+                        <div class="content">
+                            <p>JEE ADV - SC 1155
+                            <br>JEE MAIN - SC 1009
+                            <br>MHT-CET - 97.40%
+                            <br>HSC BOARD - 79.23%<br><br><br></p>
+                            <div class="imgBox">
+                                <img src="images/profile4.jpg">
+                            </div>
+                            <div class="details">
+                                <h2>NAGSEN WAGHMARE<br><span>IIT BHUBANESHWAR</span></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </div> 
+  </div>
+
+
+<script type="text/javascript">
+    function toggleMenu(){
+        const btn = document.querySelector('.openBtn');
+        const menu = document.querySelector('.navbar');
+        menu.classList.toggle('active');
+        btn.classList.toggle('active');
+    }
+</script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>   
+<script type="text/javascript">
+      var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 0,
+        stretch: 0,
+        depth: 0,
+        modifier: 1,
+        slideShadows: true,
+      },
+      loop: true,
+    });
+</script>
+ 
+</body>
+</html>

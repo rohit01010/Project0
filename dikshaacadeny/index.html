@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Diksha Academy</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="btnstyle.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function() {
+      $(window).scroll(function() {
+        if ($(document).scrollTop() > 50) {
+          $(".navbar").addClass("back");
+        } else {
+          $(".navbar").removeClass("back");
+        }
+      });
+    });
+    </script>    
+</head>
+<body>
+	<!--<div class="scrollTop">&#9650</div>-->
+    <div class="container">
+	    <div class="navbar">
+	        <div class="logo"><a href="#">DIKSHA</a></div>
+	        <a class="openBtn" onclick="toggleMenu()"></a>
+            <ul>
+                <li class="btn">
+                    <a href="index.html">
+                        <span class="left"></span>
+                        <span class="top"></span>   
+                        <span class="right"></span>
+                        <span class="bottom"></span>
+                        HOME
+                    </a>
+                </li>
+                <li class="btn">
+                    <a href="#">
+                        <span class="left"></span>
+                        <span class="top"></span>   
+                        <span class="right"></span>
+                        <span class="bottom"></span>
+                        ADMISSIONS
+                    </a>
+                </li>
+                <li class="btn">
+                    <a href="results.html">
+                        <span class="left"></span>
+                        <span class="top"></span>   
+                        <span class="right"></span>
+                        <span class="bottom"></span>
+                        RESULTS
+                    </a>
+                </li>
+                <li class="btn">
+                    <a href="#">
+                        <span class="left"></span>
+                        <span class="top"></span>   
+                        <span class="right"></span>
+                        <span class="bottom"></span>
+                        GALLERY
+                    </a>
+                </li>
+                <li class="btn">
+                    <a href="#">
+                        <span class="left"></span>
+                        <span class="top"></span>   
+                        <span class="right"></span>
+                        <span class="bottom"></span>
+                        ABOUT US
+                    </a>
+                </li>
+            </ul>
+        </div>    
+    	<section>    
+        	<div class="content">
+        		<h1>DIKSHA ACADEMY</h1>
+        		<h3>Education is not preparation for life, Education is life itself.</h3>
+        	</div>
+        	<div class="slideshow">
+           		<div class="slideshow-container">
+                	<div class="mySlides fade">
+                   		<img src="images/1.jpg" style="width:100%">
+                	</div>
+                	<div class="mySlides fade">
+                 	    <img src="images/2-1.jpg" style="width:100%">
+               		</div>
+                	<div class="mySlides fade">
+                 	    <img src="images/3-1.jpg" style="width:100%">
+               	    </div>
+               		<div class="mySlides fade"> 
+                  		<img src="images/1.jpg" style="width:100%">
+                	</div>           
+            	</div>    
+        	</div>
+        </section>
+      <div class="results">
+
+<div class="testimonials">
+    <h1>Our Results</h1>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="card">
+                    <div class="layer"></div>
+                    <div class="content">
+                        <p>JEE ADV - AIR 2644
+                        <br>JEE ADV - OBC 365
+                        <br>JEE MAIN - AIR 3216
+                        <br>JEE MAIN - OBC 515
+                        <br>MHT-CET - 99.94%
+                        <br>HSC BOARD - 99.83%</p>
+                        <div class="imgBox">
+                            <img src="images/profile1.jpg">
+                        </div>
+                        <div class="details">
+                            <h2>SHASHANK ADKESHWAR<br><span>IIT BHU</span></h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="card">
+                    <div class="layer"></div>
+                    <div class="content">
+                        <p>JEE ADV - AIR 3589
+                        <br>JEE ADV - SC 42
+                        <br>JEE MAIN - AIR 4587
+                        <br>JEE MAIN - SC 63
+                        <br>MHT-CET - 99.83%
+                        <br>HSC BOARD - 84.77%</p>
+                        <div class="imgBox">
+                            <img src="images/profile2.jpg">
+                        </div>
+                        <div class="details">
+                            <h2>ROHIT BHAGAT<br><span>IIT MADRAS</span></h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="card">
+                    <div class="layer"></div>
+                    <div class="content">
+                        <p>JEE ADV - AIR 5420
+                        <br>JEE MAIN - AIR 4669
+                        <br>MHT-CET - 98.99%
+                        <br>HSC BOARD - 80%<br><br><br></p>
+                        <div class="imgBox">
+                            <img src="images/profile3.jpeg">
+                        </div>
+                        <div class="details">
+                            <h2>KEDAR PATHADE<br><span>IIT BHUBANESHWAR</span></h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="card">
+                    <div class="layer"></div>
+                    <div class="content">
+                        <p>JEE ADV - SC 1155
+                        <br>JEE MAIN - SC 1009
+                        <br>MHT-CET - 97.40%
+                        <br>HSC BOARD - 79.23%<br><br><br></p>
+                        <div class="imgBox">
+                            <img src="images/profile4.jpg">
+                        </div>
+                        <div class="details">
+                            <h2>NAGSEN WAGHMARE<br><span>IIT BHUBANESHWAR</span></h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>        
+</div> 
+
+      </div>
+        <div class="about">
+        	<h1>Diksha IIT Academy</h1>
+        	<p>A shared vision of excellence in the ignited minds of experienced faculty member led to DIKSHA IIT ACADEMY came into existence on 20th January 2008. Driven by a shared pursuit of results, the founders of DIKSHA IIT ACADEMY are determined to be the trend setters in the field of JEE (Main + Advanced), VITEEE, BIT SAT preparation.<br>Faculty at DIKSHA IIT ACADEMY are from reputed Institutes of Delhi & Kota and they are highly experienced in teaching methodology, optimizing time, maximizing performance which is followed by the reputed Institutes of Delhi & Kota, which led to more than thousand selections in JEE (Main Advanced) every year.</p>
+        	<span class="btn">
+                <a href="#">
+                    <span class="left"></span>
+                    <span class="top"></span>   
+                    <span class="right"></span>
+                    <span class="bottom"></span>
+                    READ MORE
+                </a>
+            </span>    
+        </div>
+        <div class="feedback">
+            <h1>What our students have to say:</h1>
+            <div class="cardbox">
+                <div class="card">
+                    <div class="imgBox"><img src="images/profile1.jpg"></div>
+                    <div class="content">
+                        <p>At Diksha Acadmy, teachers are always available for help and clearing doubts. The best thing is that you can study at Diksha before and after classes. The way of teaching is helpful to cope with CBSE also.</p>
+                        <h4>Shashank Adkeshwar<br><span>IIT BHU</span></h4>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="imgBox"><img src="images/profile2.jpg"></div>
+                    <div class="content">
+                        <p>The course helped me in giving appropriate practice for preparation for JEE and securing a good rank. The different concepts helped in developing skill and strategy. The test papers were helpful in giving good insight. I have already recommended this program to my juniors.</p>
+                        <h4>Rohit bhagat<br><span>IIT Madras</span></h4>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="imgBox"><img src="images/profile3.jpeg"></div>
+                    <div class="content">
+                        <p>The Whole Career Launcher team, including everyone in students, teachers, staff members, you gave me these priceless two years and I never felt like I am preparing for one of the toughest exams in world ! I don't have enough vocabulary to thank you all.</p>
+                        <h4>Kedar Pathade<br><span>IIT Bhubaneshwar</span></h4>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="imgBox"><img src="images/profile4.jpg"></div>
+                    <div class="content">
+                        <p>I would like to thank all the teachers of Diksha who helped me throughout my journey. They helped me by guiding me and clearing all my doubts. They helped me in making the concepts crystal clear. The fundamental booklets of Diksha are very helpful and take-iff's proved to be a rich source of problems.</p>
+                        <h4>Nagsen Waghmare<br><span>IIT Bhubaneshwar</span></h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contact">
+        	<h1>CONTACT US</h1><br>
+        	<a href="mailto:dikshaiitacademy@gmail.com"><img src="images/mail.png"> - dikshaiitacademy@gmail.com</a><br>
+        	<a href="tel:8318494801"><img src="images/call.png"> - 8318494801</a><br>
+        	<a href="https://goo.gl/maps/9mGWfZKxzHVSYzdX8" target="blank"><img src="images/locate.png"> - Diksha IIT Academy, Somesh colony, Vishnu Nagar, Nanded, Maharashtra 431601</a><br>
+        </div>
+        <footer>
+        	<p>Copyright © 2020 Diksha Academy. All Rights Reserved.</p>
+        </footer>
+    <div>    
+</body>
+<script type="text/javascript">
+	function toggleMenu(){
+		const btn = document.querySelector('.openBtn');
+		const menu = document.querySelector('.navbar');
+		menu.classList.toggle('active');
+		btn.classList.toggle('active');
+	}
+	/*
+	window.addEventListner("scroll", function fun(){
+		const navbar = document.querySelector('.navbar');
+		navbar.classList.toggle("sticky" , window.scrollY > 0);
+	})*/
+</script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>   
+<script type="text/javascript">
+      var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 0,
+        stretch: 0,
+        depth: 0,
+        modifier: 1,
+        slideShadows: true,
+      },
+      loop: true,
+    });
+</script>
+</html>
